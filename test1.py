@@ -11,7 +11,7 @@ import json
 
 # Load environment variables and configure
 load_dotenv()
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY=AIzaSyBYtzrg1qAU3FlRoit42Z2CFg18k3QK9Qc"))
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 # Keep all the original configurations
 generation_config = {

@@ -12,7 +12,4 @@
       "dest": "test.py"
     }
   ],
-  "scripts": {
-    "start": "streamlit run test.py --server.port=$PORT --server.headless=true"
-  }
 }
